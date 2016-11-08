@@ -15,7 +15,7 @@
 ;(function(factory) {
   if (typeof module !== 'undefined' && module.exports) {
     // Node/CommonJS
-    module.exports = factory(this);
+    module.exports = factory();
   } else if (typeof define === 'function' && define.amd) {
     // AMD
     var global=this;
